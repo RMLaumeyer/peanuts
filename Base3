@@ -1,3 +1,10 @@
-print("Hello World")
+print("hello universe")
 
-def sumList (list nums):
+def sumList (L):
+    sum = 0
+    for i in L: 
+        sum += i
+    return sum
+
+
+print(sumList([1,2,3]))
