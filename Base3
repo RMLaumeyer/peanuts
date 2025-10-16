@@ -1,3 +1,7 @@
-print("Hello World")
+print("Hello universe")
 
-def sumList (list nums):
+def sumList (Lst):
+    for i in Lst:
+        sum == i
+    return i
+
