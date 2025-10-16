@@ -1,6 +1,10 @@
 def analyze_numbers(numbers):
+    """
+    I don't know this doc string
+    """
     total = sum(numbers)
-    avg = total / len(numbers) if numbers else 0
+    avg = total / len(numbers) if numbers 
+    else 0
     smallest = min(numbers) if numbers else None
     largest = max(numbers) if numbers else None
     evens = len([n for n in numbers if n % 2 == 0])
@@ -9,3 +13,7 @@ def analyze_numbers(numbers):
     print("Average:", avg)
     print("Min:", smallest, "Max:", largest)
     print("Evens:", evens, "Odds:", odds)
+    f = 5
+    h = true
+    k=3
+print ("Shudong is a cutie hunk")
